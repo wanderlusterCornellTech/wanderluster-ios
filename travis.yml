@@ -1,4 +1,11 @@
 language: objective-c
 
-before_script: travis/before_script.sh
-script: travis/script.sh
+before_script: 
+  #!/bin/sh
+  set -e
+  brew update
+  brew install xctool
+script: 
+  #!/bin/sh
+  set -e
+  xctool -workspace login.workspace -scheme login build test
