@@ -1,8 +1,11 @@
 Wanderluster
 ------------
-We used [![TravisCI](https://travis-ci.org/wanderlusterCornellTech/wanderluster-ios.svg?branch=master)](https://travis-ci.org/wanderlusterCornellTech/wanderluster-ios) for Continuous Intergration and [Fabric.io](https://fabric.io/dashboard) for Continuous Deployment.
+We used [Travis CI](https://travis-ci.org) for Continuous Intergration and [Fabric.io](https://fabric.io/dashboard) for Continuous Deployment.
 
-### Test Our Product
+### Continous Intergration
+[![TravisCI](https://travis-ci.org/wanderlusterCornellTech/wanderluster-ios.svg?branch=master)](https://travis-ci.org/wanderlusterCornellTech/wanderluster-ios)
+
+### Continous Deployment
 [Wanderluster Continuous Deployment](https://betas.to/fESw4x5z)
 
 ### Team
