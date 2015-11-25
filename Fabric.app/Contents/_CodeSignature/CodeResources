@@ -6,15 +6,15 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		BO7g6zM+QeqtapOzFnJtxz8VyPg=
+		ar3ZZWtRVcdjqsSRt1rYtNpHADY=
 		</data>
 		<key>Resources/CLSKitDetailDashboardViewController.nib</key>
 		<data>
-		XTIf8Y8zBFcnSSkH5d+IGJVL9RE=
+		8M7A2eppoPvM95DH/W84NKlfX70=
 		</data>
 		<key>Resources/CLSKitFeatureTutorialViewController.nib</key>
 		<data>
-		NKbXFG8e5KzTZ7fmMUA7iotfOpw=
+		baTqRr3CO04Ga+UxzhVhgz9Po58=
 		</data>
 		<key>Resources/CLSManualKitKeyProvisionViewController.nib</key>
 		<data>
@@ -95,6 +95,10 @@
 		<key>Resources/Roboto-ThinItalic.ttf</key>
 		<data>
 		thtjKcGyc/1mLmOPuc/wKBHW12k=
+		</data>
+		<key>Resources/answers-kit.tiff</key>
+		<data>
+		mcMN/mQ7A0Cc7bkNOufm7kgikxg=
 		</data>
 		<key>Resources/background.device-row@2x.png</key>
 		<data>
@@ -187,6 +191,14 @@
 		<key>Resources/com.amazonaws.appdelegate.txt</key>
 		<data>
 		3lApOw08CIPcFhxyOCakESAxgA0=
+		</data>
+		<key>Resources/com.appsee.appdelegate-swift.txt</key>
+		<data>
+		7IaF9Pd9JvXlf/kDhlSz56UHMnA=
+		</data>
+		<key>Resources/com.appsee.appdelegate.txt</key>
+		<data>
+		LOnvaBF7R3AcwNdtRo0kmW+suRU=
 		</data>
 		<key>Resources/com.crashlytics.appdelegate-osx.txt</key>
 		<data>
@@ -347,6 +359,14 @@
 		<key>Resources/com.stripe.appdelegate.txt</key>
 		<data>
 		jgqRjoHLI/XBi8zmNLxNsZg8iBc=
+		</data>
+		<key>Resources/com.twitter.answers.ios.appdelegate-swift.txt</key>
+		<data>
+		FliA2dfEv4bejwb8H4PMZsgGSq4=
+		</data>
+		<key>Resources/com.twitter.answers.ios.appdelegate.txt</key>
+		<data>
+		6Yuf+2OTSpK8/eiaWT68pd4gLD0=
 		</data>
 		<key>Resources/com.twitter.appdelegate-swift.txt</key>
 		<data>
@@ -603,7 +623,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HK/ru6JT0gEnwvGmFApGoWqmWD8=
+			e3WY5HtWpGeDEEPlJgLr4ttoyXk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -718,7 +738,7 @@
 		</data>
 		<key>Resources/image.logo-blurb.tiff</key>
 		<data>
-		hX8kSCzkWPk5PGgAhJRFueCHHJ4=
+		HQZ8AJU/zc+xSF+KHKQw5zsoD5o=
 		</data>
 		<key>Resources/image.logo-text.tiff</key>
 		<data>
@@ -913,7 +933,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			X/OXNH44N15+HjXcljrl/+UCml0=
+			PVJL6cOWk7rdbdf/Ljlgs8LZcU8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.twitter.CLSAsyncOperation" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>
@@ -922,7 +942,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			2MFxkX11YANGRJlxB1gkDEOiJg8=
+			jeRQ365djPD0lfW0NbMVyIcCfc4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.INAppStoreWindow" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -931,7 +951,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Q3Q6rUpUzxVYfeVzAZlJbLNlnfU=
+			wEzsSF1+tatCL6TYKY0fOTfoOsk=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.LibYAML" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -940,7 +960,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			hyfweQFc/8O86cYXp5ReRlsen3o=
+			lyhiUCIz0wFjOZ2ook3IaOQCD6M=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.crashlytics.Pledge" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>
@@ -949,7 +969,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			3peddtmDQ0hzFvpRZMLbZa8HBCY=
+			ala6kiBDx9g+wtIje+kypWxAsGM=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>
@@ -958,7 +978,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			MYHZeP2NKErOxb1S+QBQt7VfGI0=
+			/qpxnXYZ48w7CWJkD6104rw8JlE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.YAML-Framework" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -967,7 +987,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			P9gWbNT91rsmBVzMlKPnyw0A02I=
+			wPmbpoHxND6CzJiSsZNHyRhYu0E=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -976,7 +996,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			I6oFC9tXIC1IovEWUiKIq5Q1VSU=
+			/fXMWLPxQXFM4xbeLAeAN0DLHik=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -985,7 +1005,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ReGwVegiacdIsfr8r4nTOsZior4=
+			IXDBS53st2e3AyqCTRZJ/DCALpg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -994,7 +1014,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ibwhgERqipzOsUKJ5UJxhM0xgUQ=
+			+PiC9oNoYWTklrlvJ2THx1o23oU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1003,7 +1023,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			9GBBbeAXNAcdqkv7O3sEwgGQ0TY=
+			ifh+4gSH1MPRPfDQsl1vr07Kd5o=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1012,7 +1032,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			iBGtCuihA3mVSWwB5MC5ic1IMnU=
+			uB1hyQHLYy+poEerm374Kx+xpBM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1021,7 +1041,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zC0VIPWZHt8G2yvEV8sNB+CnQ64=
+			E567NOJByY37Y69xfhpkaznxmiM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1030,7 +1050,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8VwwwEra1XFMQst9Be9z9XDQFvs=
+			U+Z/Ne+9hTf1JTnscugKwmyJ4ww=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1039,7 +1059,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			e8nsN12b65xuUWKLS8GAOHgBemY=
+			N/3WC6iMU1P4Dfu2DH/L7z3rLGM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1048,22 +1068,22 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/fRHcZ3K5bvR0oULGRfmNpSeyhM=
+			IRVTjUGgdd8walt3t6ZVBS+PogA=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftWebKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		BO7g6zM+QeqtapOzFnJtxz8VyPg=
+		ar3ZZWtRVcdjqsSRt1rYtNpHADY=
 		</data>
 		<key>Resources/CLSKitDetailDashboardViewController.nib</key>
 		<data>
-		XTIf8Y8zBFcnSSkH5d+IGJVL9RE=
+		8M7A2eppoPvM95DH/W84NKlfX70=
 		</data>
 		<key>Resources/CLSKitFeatureTutorialViewController.nib</key>
 		<data>
-		NKbXFG8e5KzTZ7fmMUA7iotfOpw=
+		baTqRr3CO04Ga+UxzhVhgz9Po58=
 		</data>
 		<key>Resources/CLSManualKitKeyProvisionViewController.nib</key>
 		<data>
@@ -1144,6 +1164,10 @@
 		<key>Resources/Roboto-ThinItalic.ttf</key>
 		<data>
 		thtjKcGyc/1mLmOPuc/wKBHW12k=
+		</data>
+		<key>Resources/answers-kit.tiff</key>
+		<data>
+		mcMN/mQ7A0Cc7bkNOufm7kgikxg=
 		</data>
 		<key>Resources/background.device-row@2x.png</key>
 		<data>
@@ -1236,6 +1260,14 @@
 		<key>Resources/com.amazonaws.appdelegate.txt</key>
 		<data>
 		3lApOw08CIPcFhxyOCakESAxgA0=
+		</data>
+		<key>Resources/com.appsee.appdelegate-swift.txt</key>
+		<data>
+		7IaF9Pd9JvXlf/kDhlSz56UHMnA=
+		</data>
+		<key>Resources/com.appsee.appdelegate.txt</key>
+		<data>
+		LOnvaBF7R3AcwNdtRo0kmW+suRU=
 		</data>
 		<key>Resources/com.crashlytics.appdelegate-osx.txt</key>
 		<data>
@@ -1396,6 +1428,14 @@
 		<key>Resources/com.stripe.appdelegate.txt</key>
 		<data>
 		jgqRjoHLI/XBi8zmNLxNsZg8iBc=
+		</data>
+		<key>Resources/com.twitter.answers.ios.appdelegate-swift.txt</key>
+		<data>
+		FliA2dfEv4bejwb8H4PMZsgGSq4=
+		</data>
+		<key>Resources/com.twitter.answers.ios.appdelegate.txt</key>
+		<data>
+		6Yuf+2OTSpK8/eiaWT68pd4gLD0=
 		</data>
 		<key>Resources/com.twitter.appdelegate-swift.txt</key>
 		<data>
@@ -1652,7 +1692,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HK/ru6JT0gEnwvGmFApGoWqmWD8=
+			e3WY5HtWpGeDEEPlJgLr4ttoyXk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1767,7 +1807,7 @@
 		</data>
 		<key>Resources/image.logo-blurb.tiff</key>
 		<data>
-		hX8kSCzkWPk5PGgAhJRFueCHHJ4=
+		HQZ8AJU/zc+xSF+KHKQw5zsoD5o=
 		</data>
 		<key>Resources/image.logo-text.tiff</key>
 		<data>
@@ -1959,7 +1999,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			dBXkTu28sR+5WdHCQ3J+MJBN7Sw=
+			a2a624NtWnYGyRMN/HGs0A0Abow=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.crashlytics.mac.CSYMGenerator" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>
