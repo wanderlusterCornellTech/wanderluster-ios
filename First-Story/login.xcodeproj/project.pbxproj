@@ -8,19 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		19B2FC3B00FB0BFA9E59BD72 /* libPods-login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8099F28B8C1A5DFFA7867FB4 /* libPods-login.a */; };
+		58A49BD71BFCE68F0050A2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A49BD51BFCE68F0050A2DC /* Main.storyboard */; };
 		8507896B1BB253BE00FF03A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507896A1BB253BE00FF03A8 /* main.m */; };
 		8507896E1BB253BE00FF03A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507896D1BB253BE00FF03A8 /* AppDelegate.m */; };
 		850789711BB253BE00FF03A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850789701BB253BE00FF03A8 /* ViewController.m */; };
-		850789741BB253BE00FF03A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850789721BB253BE00FF03A8 /* Main.storyboard */; };
 		850789761BB253BE00FF03A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850789751BB253BE00FF03A8 /* Assets.xcassets */; };
 		850789791BB253BE00FF03A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850789771BB253BE00FF03A8 /* LaunchScreen.storyboard */; };
 		850789841BB253BE00FF03A8 /* loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850789831BB253BE00FF03A8 /* loginTests.m */; };
 		8507898F1BB253BE00FF03A8 /* loginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507898E1BB253BE00FF03A8 /* loginUITests.m */; };
 		8507899D1BB25B8F00FF03A8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8507899C1BB25B8F00FF03A8 /* libsqlite3.tbd */; };
-		850789A61BB318F600FF03A8 /* lost.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 850789A31BB318F600FF03A8 /* lost.jpeg */; settings = {ASSET_TAGS = (); }; };
-		850789A81BB318F600FF03A8 /* NYC_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 850789A51BB318F600FF03A8 /* NYC_2.jpg */; settings = {ASSET_TAGS = (); }; };
-		850789AA1BB3279700FF03A8 /* map1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 850789A91BB3279700FF03A8 /* map1.jpg */; settings = {ASSET_TAGS = (); }; };
-		850789AC1BB328E900FF03A8 /* banner.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 850789AB1BB328E900FF03A8 /* banner.jpeg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0491C84CE0C13C9C392E533B /* Pods-login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.release.xcconfig"; path = "../Pods/Target Support Files/Pods-login/Pods-login.release.xcconfig"; sourceTree = "<group>"; };
+		58A49BD61BFCE68F0050A2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8099F28B8C1A5DFFA7867FB4 /* libPods-login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		850789661BB253BE00FF03A8 /* login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8507896A1BB253BE00FF03A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,7 +46,6 @@
 		8507896D1BB253BE00FF03A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8507896F1BB253BE00FF03A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		850789701BB253BE00FF03A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		850789731BB253BE00FF03A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		850789751BB253BE00FF03A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850789781BB253BE00FF03A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8507897A1BB253BE00FF03A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,10 +56,6 @@
 		8507898E1BB253BE00FF03A8 /* loginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginUITests.m; sourceTree = "<group>"; };
 		850789901BB253BE00FF03A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8507899C1BB25B8F00FF03A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		850789A31BB318F600FF03A8 /* lost.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lost.jpeg; sourceTree = "<group>"; };
-		850789A51BB318F600FF03A8 /* NYC_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NYC_2.jpg; sourceTree = "<group>"; };
-		850789A91BB3279700FF03A8 /* map1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map1.jpg; sourceTree = "<group>"; };
-		850789AB1BB328E900FF03A8 /* banner.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpeg; sourceTree = "<group>"; };
 		D9E6A73D2DA5A07311080B74 /* Pods-login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-login/Pods-login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,12 +124,8 @@
 				8507896D1BB253BE00FF03A8 /* AppDelegate.m */,
 				8507896F1BB253BE00FF03A8 /* ViewController.h */,
 				850789701BB253BE00FF03A8 /* ViewController.m */,
-				850789A31BB318F600FF03A8 /* lost.jpeg */,
-				850789A91BB3279700FF03A8 /* map1.jpg */,
-				850789AB1BB328E900FF03A8 /* banner.jpeg */,
-				850789A51BB318F600FF03A8 /* NYC_2.jpg */,
-				850789721BB253BE00FF03A8 /* Main.storyboard */,
 				850789751BB253BE00FF03A8 /* Assets.xcassets */,
+				58A49BD51BFCE68F0050A2DC /* Main.storyboard */,
 				850789771BB253BE00FF03A8 /* LaunchScreen.storyboard */,
 				8507897A1BB253BE00FF03A8 /* Info.plist */,
 				850789691BB253BE00FF03A8 /* Supporting Files */,
@@ -194,6 +182,7 @@
 				05901853C3323D962994DAB1 /* Embed Pods Frameworks */,
 				AB74E85AD19B705028B02F34 /* Copy Pods Resources */,
 				857ED68F1BDB44BA0028D777 /* ShellScript */,
+				58984A491BE132FE00BF5AAE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -251,7 +240,7 @@
 				TargetAttributes = {
 					850789651BB253BE00FF03A8 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 984UDH938R;
+						DevelopmentTeam = 72MEUHWN7S;
 					};
 					8507897E1BB253BE00FF03A8 = {
 						CreatedOnToolsVersion = 7.0;
@@ -288,13 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850789AC1BB328E900FF03A8 /* banner.jpeg in Resources */,
+				58A49BD71BFCE68F0050A2DC /* Main.storyboard in Resources */,
 				850789791BB253BE00FF03A8 /* LaunchScreen.storyboard in Resources */,
 				850789761BB253BE00FF03A8 /* Assets.xcassets in Resources */,
-				850789741BB253BE00FF03A8 /* Main.storyboard in Resources */,
-				850789A61BB318F600FF03A8 /* lost.jpeg in Resources */,
-				850789AA1BB3279700FF03A8 /* map1.jpg in Resources */,
-				850789A81BB318F600FF03A8 /* NYC_2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +314,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-login/Pods-login-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		58984A491BE132FE00BF5AAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" eb1ba3e7c1377de713eaec91873dbfa4d7639b50 78df22fa43b5afba58b59f5969bd5c5481d194d3212b0e72f13f92ec147c986d";
 		};
 		857ED68F1BDB44BA0028D777 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -418,10 +416,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		850789721BB253BE00FF03A8 /* Main.storyboard */ = {
+		58A49BD51BFCE68F0050A2DC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				850789731BB253BE00FF03A8 /* Base */,
+				58A49BD61BFCE68F0050A2DC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -525,11 +523,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.cs5356.login;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.yanboli.login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -539,11 +539,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.cs5356.login;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.yanboli.login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
