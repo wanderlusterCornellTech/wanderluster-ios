@@ -5,4 +5,5 @@ xcodeproj 'First-Story/login.xcodeproj'
 target 'login' do
     pod 'Fabric'
     pod 'Crashlytics'
+    pod 'AFNetworking', '~> 2.5'
 end

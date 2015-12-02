@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		ar3ZZWtRVcdjqsSRt1rYtNpHADY=
+		hOEtViRQ9uTcElf912X/LLiWLIE=
 		</data>
 		<key>Resources/CLSKitDetailDashboardViewController.nib</key>
 		<data>
@@ -623,7 +623,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e3WY5HtWpGeDEEPlJgLr4ttoyXk=
+			0SBZK/ZcrDtXzQrXTF7JbgeeIwQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -942,7 +942,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			jeRQ365djPD0lfW0NbMVyIcCfc4=
+			BzFnD0aoOR7Dpf60qdzB7GXHarM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.INAppStoreWindow" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -951,7 +951,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			wEzsSF1+tatCL6TYKY0fOTfoOsk=
+			5xz1EcZGLZG0VTahm5Pd6CLdtk0=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.LibYAML" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -969,7 +969,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ala6kiBDx9g+wtIje+kypWxAsGM=
+			CW/XgtRH/un36yIdY3lScFQEQyo=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>
@@ -978,7 +978,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/qpxnXYZ48w7CWJkD6104rw8JlE=
+			QosclYl9H2oX8DDzIfMQtVPfeTM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.YAML-Framework" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1075,7 +1075,7 @@
 		</dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		ar3ZZWtRVcdjqsSRt1rYtNpHADY=
+		hOEtViRQ9uTcElf912X/LLiWLIE=
 		</data>
 		<key>Resources/CLSKitDetailDashboardViewController.nib</key>
 		<data>
@@ -1692,7 +1692,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e3WY5HtWpGeDEEPlJgLr4ttoyXk=
+			0SBZK/ZcrDtXzQrXTF7JbgeeIwQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1999,7 +1999,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			a2a624NtWnYGyRMN/HGs0A0Abow=
+			6Xy9B8Wr623xq/Agop/JgrhYing=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.crashlytics.mac.CSYMGenerator" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>

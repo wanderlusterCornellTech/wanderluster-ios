@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AFNetworking.h"
 #define DBNAME    @"userinfo.sqlite"
 #define NAME      @"name"
 #define PWD       @"password"
@@ -17,29 +18,25 @@
 @property (weak, nonatomic) IBOutlet UITextField *LoginPassword;
 @property (weak, nonatomic) IBOutlet UIButton *LoginButton;
 @property (weak, nonatomic) IBOutlet UIButton *SignupButton;
-@property (weak, nonatomic) IBOutlet UITextField *username;
-@property (weak, nonatomic) IBOutlet UITextField *password;
-@property (weak, nonatomic) IBOutlet UITextField *repassword;
-@property (weak, nonatomic) IBOutlet UILabel *messgae;
 @property (weak, nonatomic) IBOutlet UILabel *Welcome;
 @property (weak, nonatomic) IBOutlet UIImageView *myImageView;
-@property (weak, nonatomic) IBOutlet UIImageView *myImageView1;
-@property (weak, nonatomic) IBOutlet UIButton *myback;
-
-
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    NSString *ServerIP;
+    AFHTTPRequestOperationManager *AFmanager;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view insertSubview:_myImageView atIndex:0];
-    [self.view insertSubview:_myImageView1 atIndex:0];
+        
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documents = [paths objectAtIndex:0];
     NSString *database_path = [documents stringByAppendingPathComponent:DBNAME];
     //NSLog(database_path);
-    
+    AFmanager = [AFHTTPRequestOperationManager manager];
+    ServerIP = @"http://54.86.181.199:80/api/";
     if (sqlite3_open([database_path UTF8String], &db) != SQLITE_OK) {
         sqlite3_close(db);
         NSLog(@"database open failed");
@@ -51,27 +48,21 @@
     self.LoginUsername.tintColor = [UIColor blackColor];
     self.LoginPassword.tintColor = [UIColor blackColor];
     self.LoginPassword.secureTextEntry=YES;
-    self.username.placeholder = @"User Name";
-    self.password.placeholder = @"Password";
-    self.repassword.placeholder = @"Re-enter Password";
-    self.username.tintColor = [UIColor blackColor];
-    self.password.tintColor = [UIColor blackColor];
-    self.repassword.tintColor = [UIColor blackColor];
-    self.password.secureTextEntry=YES;
-    self.repassword.secureTextEntry=YES;
+    //[self.myImageView endEditing:YES];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (IBAction)Login:(id)sender {
-    NSString *username = self.LoginUsername.text;
-    NSString *password = self.LoginPassword.text;
-    NSString *sql = [NSString stringWithFormat:@"SELECT * FROM USERINFO WHERE name='%@' and password='%@';", username, password];
+    NSString *username1 = self.LoginUsername.text;
+    NSString *password1 = self.LoginPassword.text;
+    NSString *sql = [NSString stringWithFormat:@"SELECT * FROM USERINFO WHERE name='%@' and password='%@';", username1, password1];
     NSLog(@"%@",sql);
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     //NSString *sql = [NSString stringWithFormat:@"SELECT * FROM '%@';", TABLENAME];
     //NSString *sql2 = [NSString stringWithFormat:@"INSERT INTO '%@' VALUES ('%@', '%@');",TABLENAME,username, password];
     //NSString *sql3 = [NSString stringWithFormat:@"DELETE FROM '%@' WHERE '%@'='%@';",TABLENAME, NAME, username];
     if ([self.LoginUsername.text isEqualToString:@""] || [self.LoginPassword.text isEqualToString:@""]) {
-        self.Welcome.text = @"Please put userid&password";
+        self.Welcome.text = @"Please put userid or password";
     }
     else {
         int rownum = 0;
@@ -84,6 +75,11 @@
         //if (sqlite3_exec(db, [sql2 UTF8String], NULL, NULL, &err) != SQLITE_OK) {
         //    sqlite3_close(db);
         //    NSLog(@"Operation failed");
+            //NSLog(@"%@", [GlobalVariables sharedInstance].UserName);
+            //[GlobalVariables sharedInstance].UserName = username1;
+            //NSLog(@"%@", username1);
+            //NSLog(@"%@", [GlobalVariables sharedInstance].UserName);
+            [userDefaults setObject:username1 forKey:@"UserName"];
             [self performSegueWithIdentifier: @"signin" sender:nil ];
         }
         else {
@@ -91,41 +87,40 @@
          //       sqlite3_close(db);
          //       NSLog(@"Operation failed");
          //   }
-            self.Welcome.text = @"Invalid UserID or Password";
+            NSMutableString *URLConstruction = [NSMutableString string];
+            [URLConstruction appendString:[ServerIP stringByAppendingString: @"login/"]];
+            [URLConstruction appendString:username1];
+            [URLConstruction appendString:@"/"];
+            [URLConstruction appendString:password1];
+            [AFmanager GET:URLConstruction
+                parameters:nil
+                   success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                        
+                       NSDictionary *responseDict = responseObject;
+                       //NSLog(@"%@", responseDict);
+                       NSString *responseArray = [responseDict valueForKey:@"message"];
+                       NSLog(@"%@", responseArray);
+                       if ([responseArray isEqualToString: @"Login Success!"]) {
+                           NSString *sql2 = [NSString stringWithFormat:@"INSERT INTO '%@' VALUES ('%@', '%@');",TABLENAME, username1, password1];
+                           [self execSql:sql2];
+                           
+                           [userDefaults setObject:username1 forKey:@"UserName"];
+                           //[[GlobalVariables sharedInstance].UserName appendString:username1];
+                           [self performSegueWithIdentifier: @"signin" sender:nil ];
+                       }
+                       else {
+                           self.Welcome.text = @"Invalid UserID or Password";
+                       }
+                        
+                    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                        NSLog(@"Error: %@", error);
+                        self.Welcome.text = @"Invalid UserID or Password";
+                    }];
         }
     }
     
 }
 
-- (IBAction)mysignup:(id)sender {
-    NSString *username = self.username.text;
-    NSString *password = self.password.text;
-    NSString *sql1 = [NSString stringWithFormat:@"SELECT * FROM USERINFO where name='%@';", username];
-    NSString *sql2 = [NSString stringWithFormat:@"INSERT INTO '%@' VALUES ('%@', '%@');",TABLENAME, username, password];
-    if ([self.username.text isEqualToString:@""] || [self.password.text isEqualToString:@""] || [self.repassword.text isEqualToString:@""]) {
-            self.messgae.text = @"Please check your Registration Information";
-        }
-    else if (![self.password.text isEqualToString:self.repassword.text]) {
-                self.messgae.text = @"Re-enter Password unequal";
-    }
-    else {
-        int rownum = 0;
-        sqlite3_stmt *result = [self execQueryWithSQL:sql1];
-        while (sqlite3_step(result) == SQLITE_ROW)
-            rownum++;
-        NSLog(@"%d",rownum);
-        if (rownum == 0) {
-        //char *err;
-        //if (sqlite3_exec(db, [sql2 UTF8String], NULL, NULL, &err) == SQLITE_OK) {
-            //sqlite3_close(db);
-            [self execSql:sql2];
-            [self performSegueWithIdentifier: @"register" sender:nil ];
-        }
-        else {
-            self.messgae.text = @"Username exists try another";
-        }
-    }
-}
 
 -(void)execSql:(NSString *)sql
 {

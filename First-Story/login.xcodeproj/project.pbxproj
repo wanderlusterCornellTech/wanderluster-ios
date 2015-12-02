@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		19B2FC3B00FB0BFA9E59BD72 /* libPods-login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8099F28B8C1A5DFFA7867FB4 /* libPods-login.a */; };
 		58A49BD71BFCE68F0050A2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A49BD51BFCE68F0050A2DC /* Main.storyboard */; };
+		85048EE61C0D272E00D6C230 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85048EE51C0D272E00D6C230 /* SignupViewController.m */; };
+		85048EEC1C0D279D00D6C230 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85048EEB1C0D279D00D6C230 /* MatchViewController.m */; };
+		85048EEF1C0D27B300D6C230 /* TourguideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85048EEE1C0D27B300D6C230 /* TourguideViewController.m */; };
 		8507896B1BB253BE00FF03A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507896A1BB253BE00FF03A8 /* main.m */; };
 		8507896E1BB253BE00FF03A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507896D1BB253BE00FF03A8 /* AppDelegate.m */; };
 		850789711BB253BE00FF03A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850789701BB253BE00FF03A8 /* ViewController.m */; };
@@ -17,6 +20,10 @@
 		850789841BB253BE00FF03A8 /* loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850789831BB253BE00FF03A8 /* loginTests.m */; };
 		8507898F1BB253BE00FF03A8 /* loginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507898E1BB253BE00FF03A8 /* loginUITests.m */; };
 		8507899D1BB25B8F00FF03A8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8507899C1BB25B8F00FF03A8 /* libsqlite3.tbd */; };
+		85E76D001C0DE0EF0015E12E /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E76CFF1C0DE0EF0015E12E /* GlobalVariables.m */; };
+		85E76D031C0DE4240015E12E /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E76D021C0DE4240015E12E /* RequestViewController.m */; };
+		85E76D061C0DF3D50015E12E /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E76D051C0DF3D50015E12E /* TableViewCell.m */; };
+		85E76D091C0E36260015E12E /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E76D081C0E36260015E12E /* SuccessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,12 @@
 		0491C84CE0C13C9C392E533B /* Pods-login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.release.xcconfig"; path = "../Pods/Target Support Files/Pods-login/Pods-login.release.xcconfig"; sourceTree = "<group>"; };
 		58A49BD61BFCE68F0050A2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8099F28B8C1A5DFFA7867FB4 /* libPods-login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85048EE41C0D272E00D6C230 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		85048EE51C0D272E00D6C230 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		85048EEA1C0D279D00D6C230 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		85048EEB1C0D279D00D6C230 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		85048EED1C0D27B300D6C230 /* TourguideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourguideViewController.h; sourceTree = "<group>"; };
+		85048EEE1C0D27B300D6C230 /* TourguideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourguideViewController.m; sourceTree = "<group>"; };
 		850789661BB253BE00FF03A8 /* login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8507896A1BB253BE00FF03A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8507896C1BB253BE00FF03A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +69,14 @@
 		8507898E1BB253BE00FF03A8 /* loginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginUITests.m; sourceTree = "<group>"; };
 		850789901BB253BE00FF03A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8507899C1BB25B8F00FF03A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		85E76CFE1C0DE0EF0015E12E /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		85E76CFF1C0DE0EF0015E12E /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		85E76D011C0DE4240015E12E /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		85E76D021C0DE4240015E12E /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		85E76D041C0DF3D50015E12E /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		85E76D051C0DF3D50015E12E /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		85E76D071C0E36260015E12E /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		85E76D081C0E36260015E12E /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 		D9E6A73D2DA5A07311080B74 /* Pods-login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-login/Pods-login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,11 +142,25 @@
 			isa = PBXGroup;
 			children = (
 				8507896C1BB253BE00FF03A8 /* AppDelegate.h */,
+				85E76D041C0DF3D50015E12E /* TableViewCell.h */,
+				85E76D051C0DF3D50015E12E /* TableViewCell.m */,
 				8507896D1BB253BE00FF03A8 /* AppDelegate.m */,
 				8507896F1BB253BE00FF03A8 /* ViewController.h */,
+				85048EE41C0D272E00D6C230 /* SignupViewController.h */,
+				85048EE51C0D272E00D6C230 /* SignupViewController.m */,
+				85048EEA1C0D279D00D6C230 /* MatchViewController.h */,
+				85048EEB1C0D279D00D6C230 /* MatchViewController.m */,
+				85E76D011C0DE4240015E12E /* RequestViewController.h */,
+				85E76D021C0DE4240015E12E /* RequestViewController.m */,
+				85048EED1C0D27B300D6C230 /* TourguideViewController.h */,
+				85048EEE1C0D27B300D6C230 /* TourguideViewController.m */,
 				850789701BB253BE00FF03A8 /* ViewController.m */,
+				85E76CFE1C0DE0EF0015E12E /* GlobalVariables.h */,
+				85E76CFF1C0DE0EF0015E12E /* GlobalVariables.m */,
 				850789751BB253BE00FF03A8 /* Assets.xcassets */,
 				58A49BD51BFCE68F0050A2DC /* Main.storyboard */,
+				85E76D071C0E36260015E12E /* SuccessViewController.h */,
+				85E76D081C0E36260015E12E /* SuccessViewController.m */,
 				850789771BB253BE00FF03A8 /* LaunchScreen.storyboard */,
 				8507897A1BB253BE00FF03A8 /* Info.plist */,
 				850789691BB253BE00FF03A8 /* Supporting Files */,
@@ -240,7 +275,7 @@
 				TargetAttributes = {
 					850789651BB253BE00FF03A8 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 72MEUHWN7S;
+						DevelopmentTeam = 984UDH938R;
 					};
 					8507897E1BB253BE00FF03A8 = {
 						CreatedOnToolsVersion = 7.0;
@@ -379,7 +414,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				850789711BB253BE00FF03A8 /* ViewController.m in Sources */,
+				85048EEF1C0D27B300D6C230 /* TourguideViewController.m in Sources */,
+				85E76D031C0DE4240015E12E /* RequestViewController.m in Sources */,
+				85048EEC1C0D279D00D6C230 /* MatchViewController.m in Sources */,
+				85E76D061C0DF3D50015E12E /* TableViewCell.m in Sources */,
 				8507896E1BB253BE00FF03A8 /* AppDelegate.m in Sources */,
+				85048EE61C0D272E00D6C230 /* SignupViewController.m in Sources */,
+				85E76D001C0DE0EF0015E12E /* GlobalVariables.m in Sources */,
+				85E76D091C0E36260015E12E /* SuccessViewController.m in Sources */,
 				8507896B1BB253BE00FF03A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,7 +569,7 @@
 				INFOPLIST_FILE = login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.yanboli.login;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs5356.wanderluster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -543,7 +585,7 @@
 				INFOPLIST_FILE = login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.yanboli.login;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs5356.wanderluster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

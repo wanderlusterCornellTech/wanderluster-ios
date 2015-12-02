@@ -9,10 +9,13 @@
 #import "AppDelegate.h"
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
+//#import "GlobalVariables.h"
 @implementation AppDelegate
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [Fabric with:@[[Crashlytics class]]];
+    //GlobalVariables *myVariables = [GlobalVariables *instance_];
     return YES;
 }
 
