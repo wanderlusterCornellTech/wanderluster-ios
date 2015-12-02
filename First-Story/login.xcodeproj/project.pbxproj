@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		19B2FC3B00FB0BFA9E59BD72 /* libPods-login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8099F28B8C1A5DFFA7867FB4 /* libPods-login.a */; };
+		583EC6101C0F98F30025471D /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EC60F1C0F98F30025471D /* WelcomeViewController.m */; };
+		583EC6141C0FA59C0025471D /* RotateSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EC6131C0FA59C0025471D /* RotateSegue.m */; };
+		583EC6171C0FAB780025471D /* RotateBackSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EC6161C0FAB780025471D /* RotateBackSegue.m */; };
 		58A49BD71BFCE68F0050A2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A49BD51BFCE68F0050A2DC /* Main.storyboard */; };
 		85048EE61C0D272E00D6C230 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85048EE51C0D272E00D6C230 /* SignupViewController.m */; };
 		85048EEC1C0D279D00D6C230 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85048EEB1C0D279D00D6C230 /* MatchViewController.m */; };
@@ -45,6 +48,12 @@
 
 /* Begin PBXFileReference section */
 		0491C84CE0C13C9C392E533B /* Pods-login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-login.release.xcconfig"; path = "../Pods/Target Support Files/Pods-login/Pods-login.release.xcconfig"; sourceTree = "<group>"; };
+		583EC60E1C0F98F30025471D /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		583EC60F1C0F98F30025471D /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		583EC6121C0FA59C0025471D /* RotateSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateSegue.h; sourceTree = "<group>"; };
+		583EC6131C0FA59C0025471D /* RotateSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateSegue.m; sourceTree = "<group>"; };
+		583EC6151C0FAB780025471D /* RotateBackSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateBackSegue.h; sourceTree = "<group>"; };
+		583EC6161C0FAB780025471D /* RotateBackSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateBackSegue.m; sourceTree = "<group>"; };
 		58A49BD61BFCE68F0050A2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8099F28B8C1A5DFFA7867FB4 /* libPods-login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85048EE41C0D272E00D6C230 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
@@ -107,6 +116,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		583EC6111C0FA48B0025471D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8507896F1BB253BE00FF03A8 /* ViewController.h */,
+				850789701BB253BE00FF03A8 /* ViewController.m */,
+				85048EE41C0D272E00D6C230 /* SignupViewController.h */,
+				85048EE51C0D272E00D6C230 /* SignupViewController.m */,
+				85048EEA1C0D279D00D6C230 /* MatchViewController.h */,
+				85048EEB1C0D279D00D6C230 /* MatchViewController.m */,
+				85E76D011C0DE4240015E12E /* RequestViewController.h */,
+				85E76D021C0DE4240015E12E /* RequestViewController.m */,
+				85048EED1C0D27B300D6C230 /* TourguideViewController.h */,
+				85048EEE1C0D27B300D6C230 /* TourguideViewController.m */,
+				583EC60E1C0F98F30025471D /* WelcomeViewController.h */,
+				583EC60F1C0F98F30025471D /* WelcomeViewController.m */,
+				85E76D071C0E36260015E12E /* SuccessViewController.h */,
+				85E76D081C0E36260015E12E /* SuccessViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		83901322BD363F63107D8822 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,27 +171,20 @@
 		850789681BB253BE00FF03A8 /* login */ = {
 			isa = PBXGroup;
 			children = (
+				583EC6111C0FA48B0025471D /* ViewController */,
 				8507896C1BB253BE00FF03A8 /* AppDelegate.h */,
 				85E76D041C0DF3D50015E12E /* TableViewCell.h */,
 				85E76D051C0DF3D50015E12E /* TableViewCell.m */,
 				8507896D1BB253BE00FF03A8 /* AppDelegate.m */,
-				8507896F1BB253BE00FF03A8 /* ViewController.h */,
-				85048EE41C0D272E00D6C230 /* SignupViewController.h */,
-				85048EE51C0D272E00D6C230 /* SignupViewController.m */,
-				85048EEA1C0D279D00D6C230 /* MatchViewController.h */,
-				85048EEB1C0D279D00D6C230 /* MatchViewController.m */,
-				85E76D011C0DE4240015E12E /* RequestViewController.h */,
-				85E76D021C0DE4240015E12E /* RequestViewController.m */,
-				85048EED1C0D27B300D6C230 /* TourguideViewController.h */,
-				85048EEE1C0D27B300D6C230 /* TourguideViewController.m */,
-				850789701BB253BE00FF03A8 /* ViewController.m */,
 				85E76CFE1C0DE0EF0015E12E /* GlobalVariables.h */,
 				85E76CFF1C0DE0EF0015E12E /* GlobalVariables.m */,
 				850789751BB253BE00FF03A8 /* Assets.xcassets */,
 				58A49BD51BFCE68F0050A2DC /* Main.storyboard */,
-				85E76D071C0E36260015E12E /* SuccessViewController.h */,
-				85E76D081C0E36260015E12E /* SuccessViewController.m */,
 				850789771BB253BE00FF03A8 /* LaunchScreen.storyboard */,
+				583EC6121C0FA59C0025471D /* RotateSegue.h */,
+				583EC6131C0FA59C0025471D /* RotateSegue.m */,
+				583EC6151C0FAB780025471D /* RotateBackSegue.h */,
+				583EC6161C0FAB780025471D /* RotateBackSegue.m */,
 				8507897A1BB253BE00FF03A8 /* Info.plist */,
 				850789691BB253BE00FF03A8 /* Supporting Files */,
 			);
@@ -418,8 +441,11 @@
 				85E76D031C0DE4240015E12E /* RequestViewController.m in Sources */,
 				85048EEC1C0D279D00D6C230 /* MatchViewController.m in Sources */,
 				85E76D061C0DF3D50015E12E /* TableViewCell.m in Sources */,
+				583EC6171C0FAB780025471D /* RotateBackSegue.m in Sources */,
 				8507896E1BB253BE00FF03A8 /* AppDelegate.m in Sources */,
+				583EC6101C0F98F30025471D /* WelcomeViewController.m in Sources */,
 				85048EE61C0D272E00D6C230 /* SignupViewController.m in Sources */,
+				583EC6141C0FA59C0025471D /* RotateSegue.m in Sources */,
 				85E76D001C0DE0EF0015E12E /* GlobalVariables.m in Sources */,
 				85E76D091C0E36260015E12E /* SuccessViewController.m in Sources */,
 				8507896B1BB253BE00FF03A8 /* main.m in Sources */,

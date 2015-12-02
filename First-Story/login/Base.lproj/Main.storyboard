@@ -46,7 +46,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8hc-B2-Dhj" kind="modal" id="vQi-Rd-Uvo"/>
+                                    <segue destination="8hc-B2-Dhj" kind="modal" modalTransitionStyle="crossDissolve" id="vQi-Rd-Uvo"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wanderluster_logo_1" id="dsm-5g-NYn">
@@ -74,7 +74,7 @@
                         <outlet property="SignupButton" destination="OTZ-zd-1lO" id="pZ3-KI-iak"/>
                         <outlet property="Welcome" destination="rJ0-lK-cuG" id="i5v-4j-juf"/>
                         <outlet property="myImageView" destination="wfL-MT-7Ve" id="1PS-zo-LLO"/>
-                        <segue destination="FH8-LX-V5l" kind="modal" identifier="signin" id="xLj-J4-vV0"/>
+                        <segue destination="FH8-LX-V5l" kind="modal" identifier="signin" modalTransitionStyle="partialCurl" id="xLj-J4-vV0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -141,7 +141,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="fO0-DU-xQO"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="fO0-DU-xQO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -162,10 +162,10 @@
             </objects>
             <point key="canvasLocation" x="120" y="-103"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="seH-bq-PHp">
             <objects>
-                <viewController id="FH8-LX-V5l" sceneMemberID="viewController">
+                <viewController id="FH8-LX-V5l" customClass="WelcomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6h9-Lk-wWo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,7 +198,7 @@
                                     <color key="titleShadowColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="0.62" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="h5G-7D-dko" kind="modal" id="P93-Cq-eL6"/>
+                                    <segue destination="h5G-7D-dko" kind="custom" customClass="RotateSegue" id="CmJ-7d-gU5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3XQ-L6-HaT">
@@ -211,7 +211,8 @@
                                     <color key="titleShadowColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="0.62" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KYB-kb-tiV" kind="modal" id="Uu0-8w-6El"/>
+                                    <action selector="touristButton:" destination="FH8-LX-V5l" eventType="touchUpInside" id="5jX-58-ZHQ"/>
+                                    <segue destination="KYB-kb-tiV" kind="custom" customClass="RotateSegue" id="02L-hQ-eWz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -319,7 +320,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FH8-LX-V5l" kind="modal" id="JGo-N3-rxH"/>
+                                    <segue destination="FH8-LX-V5l" kind="custom" customClass="RotateBackSegue" id="VdA-2M-GSX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -336,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VPe-7L-axR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047" y="66"/>
+            <point key="canvasLocation" x="1055" y="94"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wAc-X0-YkT">
@@ -505,7 +506,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FH8-LX-V5l" kind="modal" id="Lud-40-owD"/>
+                                    <segue destination="FH8-LX-V5l" kind="custom" customClass="RotateBackSegue" id="5pS-qz-hKg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -579,7 +580,7 @@
                                         <rect key="frame" x="0.0" y="28" width="325" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oe5-i2-CRX" id="PFr-w2-H1C">
-                                            <rect key="frame" x="0.0" y="0.0" width="325" height="74"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" id="9Kd-3h-luN">
@@ -662,7 +663,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uyk-fT-YyM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1527" y="66"/>
+            <point key="canvasLocation" x="1599" y="66"/>
         </scene>
         <!--Success View Controller-->
         <scene sceneID="qGv-n3-cSW">
@@ -752,11 +753,11 @@
         <image name="welcome_background" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wVT-7p-ZJi"/>
+        <segue reference="02L-hQ-eWz"/>
+        <segue reference="xLj-J4-vV0"/>
+        <segue reference="fO0-DU-xQO"/>
+        <segue reference="CmJ-7d-gU5"/>
         <segue reference="DwA-Fh-sSi"/>
-        <segue reference="ajW-Bg-hPh"/>
-        <segue reference="YhZ-HG-u3f"/>
-        <segue reference="8Gd-wu-i2H"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
