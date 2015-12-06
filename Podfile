@@ -1,6 +1,6 @@
 platform :ios,'9.0'
 
-xcodeproj 'First-Story/login.xcodeproj'
+xcodeproj 'Wanderluster/login.xcodeproj'
 
 target 'login' do
     pod 'Fabric'
