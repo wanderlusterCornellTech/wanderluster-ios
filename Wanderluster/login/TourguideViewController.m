@@ -7,7 +7,7 @@
 //
 
 #import "TourguideViewController.h"
-#import "AFNetworking.h"
+//#import "AFNetworking.h"
 
 @interface TourguideViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *mobile;

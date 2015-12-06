@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "AFNetworking.h"
 #define DBNAME    @"userinfo.sqlite"
 #define NAME      @"name"
 #define PWD       @"password"

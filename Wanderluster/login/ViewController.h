@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <sqlite3.h>
-#import "GlobalVariables.h"
+#import "AFNetworking.h"
+//#import "GlobalVariables.h"
 
 @interface ViewController : UIViewController
 {

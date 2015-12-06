@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
-//#import "GlobalVariables.h"
+
 @implementation AppDelegate
 
 
