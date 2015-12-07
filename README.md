@@ -13,5 +13,3 @@ We used [Travis CI](https://travis-ci.org) for Continuous Intergration and [Fabr
 [Yanbo Li](https://github.com/liudan30/cs5356/blob/master/people/yanbo-li.md)   
 [Liudan Xiao](https://github.com/liudan30/cs5356/blob/master/people/liudan-xiao.md)
 
-###First Story
-[First Story](/First-Story)  
