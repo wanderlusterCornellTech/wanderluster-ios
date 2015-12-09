@@ -1,7 +1,0 @@
-source 'https://github.com/CocoaPods/Specs.git'
-
-workspace 'AnyWall'
-
-pod 'Parse'
-pod 'ParseFacebookUtilsV4'
-pod 'ParseUI'

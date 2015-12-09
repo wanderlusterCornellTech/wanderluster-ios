@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		ar3ZZWtRVcdjqsSRt1rYtNpHADY=
+		kcBB+ZV7hkXINCMuYsEZLBpTdYo=
 		</data>
 		<key>Resources/CLSKitDetailDashboardViewController.nib</key>
 		<data>
@@ -255,6 +255,14 @@
 		<key>Resources/com.digits.authenticate.txt</key>
 		<data>
 		9X8oN1BDUBXPyWbHvcwrOa02W9A=
+		</data>
+		<key>Resources/com.mapbox.appdelegate-swift.txt</key>
+		<data>
+		xOn8ENbIJxZXrtUKDCWC40aYrqE=
+		</data>
+		<key>Resources/com.mapbox.appdelegate.txt</key>
+		<data>
+		je3K1htXSEL82RY1nDPlS88N0kI=
 		</data>
 		<key>Resources/com.mopub.appdelegate-swift.txt</key>
 		<data>
@@ -623,7 +631,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e3WY5HtWpGeDEEPlJgLr4ttoyXk=
+			fPje4xN8MN/ge06gE+Vx+hcuZKo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -942,7 +950,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			jeRQ365djPD0lfW0NbMVyIcCfc4=
+			UP6Us2S83dpjfystGeBI1FVfi04=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.INAppStoreWindow" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -951,7 +959,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			wEzsSF1+tatCL6TYKY0fOTfoOsk=
+			6kYZwKPZWhaKpgNB3n7k3mB7umQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.LibYAML" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -969,7 +977,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ala6kiBDx9g+wtIje+kypWxAsGM=
+			ZBAcENnhU7gONRPOd+X1Hfxky6o=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>
@@ -978,7 +986,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/qpxnXYZ48w7CWJkD6104rw8JlE=
+			baCfsILSlTxaw1uWkw2qT67e/8A=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.YAML-Framework" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77</string>
@@ -1075,7 +1083,7 @@
 		</dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		ar3ZZWtRVcdjqsSRt1rYtNpHADY=
+		kcBB+ZV7hkXINCMuYsEZLBpTdYo=
 		</data>
 		<key>Resources/CLSKitDetailDashboardViewController.nib</key>
 		<data>
@@ -1324,6 +1332,14 @@
 		<key>Resources/com.digits.authenticate.txt</key>
 		<data>
 		9X8oN1BDUBXPyWbHvcwrOa02W9A=
+		</data>
+		<key>Resources/com.mapbox.appdelegate-swift.txt</key>
+		<data>
+		xOn8ENbIJxZXrtUKDCWC40aYrqE=
+		</data>
+		<key>Resources/com.mapbox.appdelegate.txt</key>
+		<data>
+		je3K1htXSEL82RY1nDPlS88N0kI=
 		</data>
 		<key>Resources/com.mopub.appdelegate-swift.txt</key>
 		<data>
@@ -1692,7 +1708,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e3WY5HtWpGeDEEPlJgLr4ttoyXk=
+			fPje4xN8MN/ge06gE+Vx+hcuZKo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1999,7 +2015,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			a2a624NtWnYGyRMN/HGs0A0Abow=
+			2eKu2HHda/h5HGqPz24efCccHJ8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.crashlytics.mac.CSYMGenerator" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L8VKXC2S77)</string>
