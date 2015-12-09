@@ -580,7 +580,7 @@
                                         <rect key="frame" x="0.0" y="28" width="325" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oe5-i2-CRX" id="PFr-w2-H1C">
-                                            <rect key="frame" x="0.0" y="0.0" width="325" height="74.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" id="9Kd-3h-luN">
@@ -630,7 +630,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MMW-dP-FKm">
-                                                            <rect key="frame" x="100" y="36" width="302" height="16"/>
+                                                            <rect key="frame" x="100" y="36" width="225" height="16"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -754,10 +754,10 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="02L-hQ-eWz"/>
-        <segue reference="xLj-J4-vV0"/>
-        <segue reference="fO0-DU-xQO"/>
-        <segue reference="CmJ-7d-gU5"/>
+        <segue reference="GNu-UQ-2K2"/>
         <segue reference="DwA-Fh-sSi"/>
+        <segue reference="UH8-Zu-4Yj"/>
+        <segue reference="fO0-DU-xQO"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
