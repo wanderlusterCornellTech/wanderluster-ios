@@ -11,6 +11,8 @@
 		583EC6101C0F98F30025471D /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EC60F1C0F98F30025471D /* WelcomeViewController.m */; };
 		583EC6141C0FA59C0025471D /* RotateSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EC6131C0FA59C0025471D /* RotateSegue.m */; };
 		583EC6171C0FAB780025471D /* RotateBackSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EC6161C0FAB780025471D /* RotateBackSegue.m */; };
+		588A07FD1C17F0B00000F712 /* OCMock in Resources */ = {isa = PBXBuildFile; fileRef = 588A07FC1C17F0B00000F712 /* OCMock */; };
+		588A07FE1C17F0B00000F712 /* OCMock in Resources */ = {isa = PBXBuildFile; fileRef = 588A07FC1C17F0B00000F712 /* OCMock */; };
 		58A49BD71BFCE68F0050A2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A49BD51BFCE68F0050A2DC /* Main.storyboard */; };
 		85048EE61C0D272E00D6C230 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85048EE51C0D272E00D6C230 /* SignupViewController.m */; };
 		85048EEC1C0D279D00D6C230 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85048EEB1C0D279D00D6C230 /* MatchViewController.m */; };
@@ -55,6 +57,8 @@
 		583EC6131C0FA59C0025471D /* RotateSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateSegue.m; sourceTree = "<group>"; };
 		583EC6151C0FAB780025471D /* RotateBackSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateBackSegue.h; sourceTree = "<group>"; };
 		583EC6161C0FAB780025471D /* RotateBackSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateBackSegue.m; sourceTree = "<group>"; };
+		588A07FA1C17EBA40000F712 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = "../../Desktop/Cornell Tech/Startup system design/iOS/libOCMock.a"; sourceTree = "<group>"; };
+		588A07FC1C17F0B00000F712 /* OCMock */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OCMock; path = "../../../Desktop/Cornell Tech/Startup system design/iOS/OCMock"; sourceTree = "<group>"; };
 		58A49BD61BFCE68F0050A2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB983FD94E5EC5431FCDADD /* libPods-loginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E864E12DF68537E05FDC68 /* Pods-loginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-loginTests/Pods-loginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 		83901322BD363F63107D8822 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				588A07FA1C17EBA40000F712 /* libOCMock.a */,
 				8099F28B8C1A5DFFA7867FB4 /* libPods-login.a */,
 				5EB983FD94E5EC5431FCDADD /* libPods-loginTests.a */,
 			);
@@ -201,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				8507896A1BB253BE00FF03A8 /* main.m */,
+				588A07FC1C17F0B00000F712 /* OCMock */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -348,6 +354,7 @@
 			files = (
 				58A49BD71BFCE68F0050A2DC /* Main.storyboard in Resources */,
 				850789791BB253BE00FF03A8 /* LaunchScreen.storyboard in Resources */,
+				588A07FD1C17F0B00000F712 /* OCMock in Resources */,
 				850789761BB253BE00FF03A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588A07FE1C17F0B00000F712 /* OCMock in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +686,15 @@
 			baseConfigurationReference = F06C76D3BF3770A7842D2ED2 /* Pods-loginTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/GHUnit\"",
+					"\"$(PROJECT_DIR)/login/Supporting Files\"",
+				);
 				INFOPLIST_FILE = loginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cs5356.loginTests;
@@ -691,6 +708,15 @@
 			baseConfigurationReference = 67E864E12DF68537E05FDC68 /* Pods-loginTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/GHUnit\"",
+					"\"$(PROJECT_DIR)/login/Supporting Files\"",
+				);
 				INFOPLIST_FILE = loginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cs5356.loginTests;

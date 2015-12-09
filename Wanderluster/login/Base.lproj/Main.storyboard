@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--ViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" title="ViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,7 +84,7 @@
         <!--Signup View Controller-->
         <scene sceneID="k1k-v3-Dk6">
             <objects>
-                <viewController id="8hc-B2-Dhj" customClass="SignupViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignupViewController" id="8hc-B2-Dhj" customClass="SignupViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1mH-hn-8du">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,7 +165,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="seH-bq-PHp">
             <objects>
-                <viewController id="FH8-LX-V5l" customClass="WelcomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController" id="FH8-LX-V5l" customClass="WelcomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6h9-Lk-wWo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -227,7 +227,7 @@
         <!--Tourguide View Controller-->
         <scene sceneID="mw9-N4-M9r">
             <objects>
-                <viewController id="h5G-7D-dko" customClass="TourguideViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TourGuideViewController" id="h5G-7D-dko" customClass="TourguideViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W6l-k7-6ar">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,7 +406,7 @@
         <!--Request View Controller-->
         <scene sceneID="Pfn-la-TJ4">
             <objects>
-                <viewController id="KYB-kb-tiV" customClass="RequestViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TouristViewController" id="KYB-kb-tiV" customClass="RequestViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qh5-mU-8Md">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -529,7 +529,7 @@
         <!--Match View Controller-->
         <scene sceneID="wdU-dh-nbt">
             <objects>
-                <viewController id="Zkh-7L-DEd" customClass="MatchViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MatchViewController" id="Zkh-7L-DEd" customClass="MatchViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E2A-By-zlN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -580,7 +580,7 @@
                                         <rect key="frame" x="0.0" y="28" width="325" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oe5-i2-CRX" id="PFr-w2-H1C">
-                                            <rect key="frame" x="0.0" y="0.0" width="325" height="74"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" id="9Kd-3h-luN">
@@ -753,11 +753,11 @@
         <image name="welcome_background" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="02L-hQ-eWz"/>
-        <segue reference="GNu-UQ-2K2"/>
-        <segue reference="DwA-Fh-sSi"/>
-        <segue reference="UH8-Zu-4Yj"/>
         <segue reference="fO0-DU-xQO"/>
+        <segue reference="wVT-7p-ZJi"/>
+        <segue reference="ajW-Bg-hPh"/>
+        <segue reference="DwA-Fh-sSi"/>
+        <segue reference="YhZ-HG-u3f"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
